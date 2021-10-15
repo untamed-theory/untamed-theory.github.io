@@ -9,7 +9,7 @@
 }
 
 .header{
-  background: linear-gradient(15deg, #5DCC90 70%, #ADD962);
+  background: linear-gradient(15deg, rgb(111, 78, 229) 70%,rgb(251, 84, 43));
   color: #214732;
   min-height: 10vh;
   font-family: "Ubuntu";
@@ -21,18 +21,18 @@
 }
 
 .btn{
-  background: #5DCC90;
+  background: rbb;
   color:#FFF;  
   min-width: 120px;
   min-height: 40px;
   font-size: 20px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 .btn:hover, .btn:active, .btn:focus{
   animation: MenuBtnHover .5s;
   color:#FFF;
-  background: #5AB283;
+  background: rgb(52, 25, 110);
   border: none;
   box-shadow: 0px 10px 10px 1px rgba(0,0,0,0.1)
 }
@@ -44,13 +44,13 @@
 
 @keyframes MenuBtnHover{
   from {
-    background: #5DCC90;
+    background: rgb(251, 84, 43);
     color:#FFF;  
     box-shadow: 0px 0px 0px 0px rgba(0,0,0,0)
   }
   to {
     color:#FFF;
-    background: #5AB283;
+    background: rgb(251, 84, 43);
     box-shadow: 0px 10px 10px 1px rgba(0,0,0,0.1)
   }
 }
@@ -63,19 +63,32 @@
   margin: 0;
 }
 
+
 .about{
-  background: url("https://images.unsplash.com/photo-1416339442236-8ceb164046f8?dpr=1&auto=format&crop=entropy&fit=crop&w=1199&h=867&q=80") no-repeat;
+  background: url("./wp4303652-nashville-wallpapers.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .skills{
-  background: linear-gradient(15deg, #3DE8D9, #3D83D9);
+  background: linear-gradient(15deg, rgb(162, 136, 255), rgb(35, 8, 133));
   color: #FFF;
 }
 
 .skills li::first-letter{
-  font-size: 30px;
+  font-size: 24px;
+}
+
+.skills li{
+  font-size: 18px
+}
+
+.skills p::first-letter{
+  font-size:20px;
+}
+.skills p{
+  font-size: 18px;
+  text-indent: 20px;
 }
 
 .skillset{
@@ -123,14 +136,20 @@
   height: 300px;
   max-height: 300px;
   width: 400px;
-  background-color: #BF6E55;
+  background-color: rgb(251,84,43);
   box-shadow: 0px 10px 10px 0px rgba(0,0,0, .4);  
 }
 
 
 .music{
-  background: #FFCBAF;
+  min-height: 200px;
+  background: rgb(251,84,43);
+  color:white
 }
+
+/* .contact{
+  color: white
+} */
 
 @media (max-width: 1000px) {
   .menu{
@@ -153,4 +172,4 @@
     margin: 1em;
     
   }
-} 
+}
