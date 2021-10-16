@@ -12,7 +12,8 @@
   background: linear-gradient(15deg, rgb(111, 78, 229) 70%,rgb(251, 84, 43));
   color: #214732;
   min-height: 10vh;
-  font-family: "Ubuntu";
+  /* font-family: "Ubuntu"; */
+  font: "proxima-nova"
 }
 
 .sitename{
