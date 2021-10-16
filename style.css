@@ -9,9 +9,9 @@
 }
 
 .header{
-  background: linear-gradient(15deg, rgb(111, 78, 229) 70%,rgb(251, 84, 43));
+  background: linear-gradient(15deg, rgb(7, 1, 31) 70%,rgb(251, 84, 43));
   color: #214732;
-  min-height: 10vh;
+  min-height: 4vh;
   /* font-family: "Ubuntu"; */
   font: "proxima-nova"
 }
@@ -72,7 +72,7 @@
 }
 
 .skills{
-  background: linear-gradient(15deg, rgb(162, 136, 255), rgb(35, 8, 133));
+  background: linear-gradient(15deg, rgb(111,78,229), rgb(7, 1, 31));
   color: #FFF;
 }
 
